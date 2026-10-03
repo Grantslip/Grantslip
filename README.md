@@ -33,4 +33,4 @@ Landing https://grantslip.fly.dev/ · Issuer API https://grantslip-issuer.fly.de
 
 ## Built by
 
-A retired train engineer with no AI experience, brainstormed with an AI.
+I spent my career as a train engineer, where a mistake can cost lives. You learn to give access only when it's needed, take it back when the job's done, and keep a record of all of it. I built Grantslip with AI coding tools to bring that same discipline to AI agents: short-lived badges, only the tools they need, and a log of every use.
