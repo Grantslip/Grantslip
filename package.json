@@ -1,0 +1,23 @@
+{
+  "name": "grantslip",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Grantslip developer SDK, verify middleware, and examples",
+  "license": "MIT",
+  "packageManager": "pnpm@10.33.3",
+  "scripts": {
+    "build": "pnpm -r --sort build",
+    "typecheck": "pnpm build && pnpm -r --sort typecheck",
+    "test": "pnpm -r --sort test",
+    "quickstart": "pnpm build && pnpm example:protected && pnpm example:mcp && pnpm example:runaway",
+    "example:protected": "pnpm --filter @grantslip/example-protected-tool start",
+    "example:mcp": "pnpm --filter @grantslip/example-mcp-server start",
+    "example:runaway": "pnpm --filter @grantslip/example-runaway-agent start"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": ["esbuild"]
+  }
+}
